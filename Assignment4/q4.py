@@ -1,0 +1,10 @@
+import numpy as np  
+ananya = np.linspace(10, 100, 25)  
+print("Dimensions:", ananya.ndim)  
+print("Shape:", ananya.shape)  
+print("Total Elements:", ananya.size)  
+print("Data Type:", ananya.dtype)  
+print("Bytes Consumed:", ananya.nbytes)  
+transpose = ananya.reshape(5, 5)  
+print("Transposed Array:\n", transpose)  
+print("Using .T:\n", ananya.T)  
